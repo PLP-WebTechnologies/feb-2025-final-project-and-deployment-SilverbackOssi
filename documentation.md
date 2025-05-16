@@ -9,7 +9,7 @@ A responsive, multipage website built using HTML5, CSS3, and JavaScript.
 - Contact form with validation
 
 ## Live Demo
-👉 [Visit Site on GitHub Pages](https://silverbackossi.github.io/MyPortfolioSite/)
+👉 [Visit Site on GitHub Pages](https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-SilverbackOssi/)
 
 ## Tech Stack
 - HTML5
