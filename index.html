@@ -3,29 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Welcome to My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <header class="hero">
+    <div class="hero-overlay">
+      <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1>Hello, I'm a Web Developer</h1>
+        <p>Building beautiful websites with HTML, CSS, and JavaScript</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </div>
   </header>
 
   <main>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a demo homepage built with HTML, CSS and JavaScript.</p>
-    <div class="slider">
-      <img src="images/slide1.jpg" alt="Slide 1" id="sliderImage">
-    </div>
-    <button id="nextSlide">Next Slide</button>
+    <section class="gallery">
+      <h2>Featured Projects</h2>
+      <div class="gallery-grid">
+        <img src="https://source.unsplash.com/featured/?technology" alt="Tech">
+        <img src="https://source.unsplash.com/featured/?webdesign" alt="Web Design">
+        <img src="https://source.unsplash.com/featured/?code" alt="Coding">
+        <img src="https://source.unsplash.com/featured/?developer" alt="Developer">
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Portfolio</p>
+    <p>&copy; 2025 My Portfolio. Made with 💻 and ☕</p>
   </footer>
 
   <script src="script.js"></script>
